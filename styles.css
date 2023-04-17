@@ -1,0 +1,104 @@
+/* General styles */
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #fff;
+  }
+  
+  form {
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"], input[type="email"], textarea, input[type="datetime-local"] {
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  select {
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="submit"] {
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #cc5500;
+  }
+  
+  ul {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  /* Styles for regular employees */
+  
+  .regular-employee label[for="order"] {
+    color: #0077b3;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .regular-employee #order {
+    border-color: #0077b3;
+  }
+  
+  /* Styles for visitors */
+  
+  .visitor label[for="name"] {
+    color: #ffcc00;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .visitor input[type="text"] {
+    border-color: #ffcc00;
+  }
+  
+  /* Styles for interns */
+  
+  .intern label[for="special-requests"] {
+    color: #cc0000;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .intern textarea {
+    border-color: #cc0000;
+  }
+  

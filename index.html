@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="styles.css">
+  <head>
+    <title>Lunch Ordering System</title>
+  </head>
+  <body>
+    <h1>Welcome to the Lunch Ordering System</h1>
+    <form>
+      <label for="user-type">Select your user type:</label>
+      <select id="user-type" name="user-type">
+        <option value="regular-employee">Regular Employee</option>
+        <option value="visitor">Visitor</option>
+        <option value="intern">Intern</option>
+      </select>
+      <br><br>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="order">Order:</label>
+      <input type="text" id="order" name="order"><br><br>
+      <label for="special-requests">Special Requests:</label>
+      <textarea id="special-requests" name="special-requests"></textarea><br><br>
+      <label for="delivery-time">Delivery Time:</label>
+      <input type="datetime-local" id="delivery-time" name="delivery-time"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+    <br>
+    <p>Other features:</p>
+    <ul>
+      <li>Personalization: Users can customize their orders based on their preferences, dietary restrictions, or budget constraints.</li>
+      <li>Ordering Options: Users can choose to order in advance, make changes to their orders, or cancel their orders.</li>
+      <li>Notifications: Users receive notifications about their orders, delivery times, and any changes to their orders.</li>
+      <li>Reporting: Administrators can track orders, popular dishes, and user feedback.</li>
+    </ul>
+    
+  </body>
+</html>
